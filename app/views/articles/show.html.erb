@@ -1,0 +1,13 @@
+<div class="container">
+  <div>
+    <%= link_to 'Edit this article', edit_article_path(@article)%>
+  </div>
+  <div>
+    <h2><%= @article.title%></h2>
+  </div>
+  <div class="detail">
+    <p><%= @article.content %></p>
+  </div>
+
+  <%= link_to 'Back to list', articles_path()%>
+</div>

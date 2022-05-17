@@ -1,0 +1,27 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #919191;
+}
+
+h2 {
+  font-weight: 500;
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.banner {
+  margin-top: 0;
+  width: auto;
+  padding: 10px 10px;
+  background-color: #f8f8f8;
+  border-bottom: solid #e7e7e7;
+}
